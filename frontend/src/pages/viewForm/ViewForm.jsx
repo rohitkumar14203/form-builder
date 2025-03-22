@@ -42,12 +42,9 @@ const ViewForm = () => {
             <input type={input.type} placeholder={input.placeholder} />
           </div>
         ))}
-
-        <div>
-          <button type="submit" className={styles.submitBtn}>
-            Submit
-          </button>
-        </div>
+        <button type="submit" className={styles.submitBtn}>
+          Submit
+        </button>
       </form>
     </div>
   );
