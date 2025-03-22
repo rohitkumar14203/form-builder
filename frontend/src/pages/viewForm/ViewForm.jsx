@@ -43,9 +43,11 @@ const ViewForm = () => {
           </div>
         ))}
 
-        <button type="submit" className={styles.submitBtn}>
-          Submit
-        </button>
+        <div>
+          <button type="submit" className={styles.submitBtn}>
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );

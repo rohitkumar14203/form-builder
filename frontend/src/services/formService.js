@@ -1,7 +1,9 @@
-const BASE_URL =
-  import.meta.env.API_BASE_URL ||
-  "https://form-builder-b6gl.onrender.com" ||
-  "http://localhost:8000";
+// const BASE_URL =
+//   import.meta.env.API_BASE_URL ||
+//   "https://form-builder-b6gl.onrender.com" ||
+//   "http://localhost:8000";
+
+const BASE_URL = "http://localhost:8000";
 
 export const getAllForms = async () => {
   try {
