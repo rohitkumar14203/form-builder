@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CreateForm from "./pages/createForm/CreateForm";
-import ViewForm from "./pages/viewForm/viewForm";
+import ViewForm from "./pages/viewForm/ViewForm";
 import EditForm from "./pages/editForm/EditForm";
 
 const App = () => {
